@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.card-container {
+  display: flex;
+  justify-content:center;
+
+}
+
+.card {
+  width: 150px;
+  height: 220px;
+  border-radius: 1.2px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 65px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.car-logo {
+  width: 35px;
+  height: 25px;
+}
+
+.heading{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;  
+}
+
+.paragraph{
+    font-family: "Lexend Deca", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 250;
+    font-style: none;
+    font-size: 7px;
+    line-height: 1.5ch;
+}
+
+.orange-card {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.orange-card .heading,
+.orange-card .learn-more {
+  color: white;
+}
+.orange-card .paragraph{
+    color: hsl(31, 96%, 80%);
+}
+
+.orange-card .learn-more {
+  background-color: white;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 20px;
+  border: none;
+  padding: 7px 15px;
+  color: hsl(31, 77%, 52%);
+  margin-top: 45px;
+  margin-left: 0px;
+  font-size: 8px;
+  cursor:pointer;
+}
+
+.blue-card {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.blue-card .heading,
+.blue-card .learn-more {
+  color: #fff;
+  /* chsla(0, 0%, 100%, 0.75); */
+}
+.blue-card .paragraph{
+    color:hsl(184, 59%, 73%);
+
+}
+
+.blue-card .learn-more {
+  background-color: white;
+  border-radius: 20px ;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  color: hsl(184, 100%, 22%);
+  padding: 7px 15px;
+  margin-top:45px;
+  margin-left: 0px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.green-card {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.green-card .heading,
+.green-card .learn-more {
+  color: #fff;
+  /* color:hsl(179, 98%, 65%); */
+}
+
+.green-card .paragraph{
+    color:hsl(179, 82%, 87%);
+}
+
+.green-card .learn-more {
+  background-color: white;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  padding: 7px 15px;
+  color: hsl(179, 100%, 13%);
+  margin-top: 45px;
+  margin-left: 0px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 375px){
+  .container {
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    /* margin-top: 20px; */
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+} 
+
+  .card {
+    width: 100px;
+    height: 155px;
+    margin-top: 0px;
+  } 
+
+    .car-logo {
+    width: 28px;
+    height: 18px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .paragraph {
+    font-size: 7px;
+    line-height: 2.5ch;
+    margin-bottom: -32px;
+    font-style: 250px;
+  }
+
+  .learn-more {
+    font-size: 8px;
+    width: 75px;
+  }
+
+
